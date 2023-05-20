@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.t1{
+    text-align: center;
+    margin-top: 17%;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: rgb(41, 199, 178);
+}
+
+.t2{
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(41, 199, 178);
+}
+.p1{
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 20px;
+    color: #bb7922;
+}
+
+.p2{
+    font-size: 20px;
+    margin-bottom:20px;
+    color: #bb7922;
+}
+
+.coding{
+    font-size: 25px;
+}
+
+.box{
+    width: 450px;
+    height: 500px;
+    background-color:rgba(8, 101, 240, 0.6);
+    text-align: center;
+    align-items: center;
+    border-radius:  25px;
+    transform-style: preserve-3d;
+    transition: 1.5s; 
+    cursor: pointer;
+    position: relative;
+    margin-left: -50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.text-about{
+    position: relative;
+   margin-top: -40%;
+   margin-left: 43%;
+}
+
+.section{
+    max-width: 1500px;
+    margin-bottom: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img,.img2{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+}
+
+.web{
+    font-size: 20px;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.link .bx{
+    margin: 30px 15px;
+}
+
+.mouse{
+    font-size: 35px;
+    margin-top: 15%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+/*icon的变换颜色*/
+.icon1,.icon2,.icon3,.icon4{
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+}
+
+.icon1:hover{
+    color: rgb(255, 0, 0);
+}
+
+.icon2:hover{
+    color: rgb(204, 0, 255);
+}
+
+.icon3:hover{
+    color: rgb(47, 0, 255);
+}
+
+.icon4:hover{
+    color: rgb(132, 0, 255);
+}
+
+.button1{
+    background: rgb(116, 104, 104);
+    width: 113px;
+    height: 40px;
+    border-radius:  25px; 
+    transition: 0.7s;
+    color: black;
+    text-decoration-color: rgb(247, 78, 78);
+}
+
+.button1:hover{
+    background-color: rgb(231, 23, 23);
+}
+
+
+
+.flip{
+    position: relative;
+    transition: 0.6;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.back{
+    position: absolute;
+    backface-visibility: hidden;
+    top: 10%;
+    left: 25%;
+    bottom: 10%;
+}
+
+.f{
+    z-index:2;
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(0deg);
+}
+.f{
+    transform: rotateY(180deg);
+}
+.box:hover,.flip{
+    transform: rotateY(180deg);
+}
+.text-box{
+    text-align: center;
+    max-width: 1500px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 200px;
+    padding: 2rem 0;
+}
+
+.sbox{
+    width: 300px;
+    height: 250px;
+    background-color: cornflowerblue;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
